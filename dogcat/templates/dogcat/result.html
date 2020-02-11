@@ -1,0 +1,30 @@
+{% extends 'dogcat/base.html' %}
+{% block title %}推定結果{% endblock %}
+
+{% block content %}
+<div>
+    <table class='table'>
+        <tbody>
+            <tr>
+                <td>ファイル名</td>
+                <td>{{ photo_name }}</td>
+            </tr>
+            <tr>
+                <td>画像ファイル</td>
+                <td><img class='preview-img' src={{ photo_data }} ></img></td>
+                </tr>
+            <tr class="dogcat_answer">
+                <td>推定結果</td>
+                <td>{{ predicted }}</td>
+            </tr>
+            <tr class="dogcat_percentage">
+                <td>確率</td>
+                <td>{{ percentage }} %</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href = "{% url 'dogcat:index' %}" class="btn btn-primary">画像選択メニューに戻る</a>
+
+</div>
+{% endblock %}

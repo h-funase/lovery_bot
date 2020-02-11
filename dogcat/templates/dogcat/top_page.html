@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'dogcat/css/style.css' %}">
+    {% bootstrap_javascript jquery='full' %}
+    <title>LOVERY BOT | {% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOVERY BOT</a>
+    </nav>
+    <div class="top-content">
+        <div class="select-content">
+            {% comment %} <a href="{% url 'index' %}">LOVERY EYE</a> {% endcomment %}
+            <a href="{% url 'dogcat:index' %}">LOVERY EYE</a>
+        </div>
+        <div class="bot-top-page"></div> 
+    </div>
+</body>
+</html>
