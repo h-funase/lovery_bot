@@ -3,8 +3,6 @@
 import os
 import sys
 
-#これがもともとの。一番下はコピー
-
 # def main():
 #     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lovery_bot.settings')
 #     try:
