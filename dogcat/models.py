@@ -7,13 +7,13 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 import io, base64
 
-graph = tf.get_default_graph()
+graph = tf.compat.v1.get_default_graph()
 
 class Photo(models.Model):
     image = models.ImageField(upload_to='photos')
 
     IMAGE_SIZE = 224 # 画像サイズ
-    MODEL_FILE_PATH = './dogcat/ml_models/vgg16_transfer.h5' # モデルファイル
+    MODEL_FILE_PATH = './dogcat/ml_models/vgg16_transfer.h5' 
     classes = ["犬", "猫"]
     num_classes = len(classes)
 
