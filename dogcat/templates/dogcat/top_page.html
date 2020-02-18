@@ -11,11 +11,12 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LOVERY BOT</a>
+        <a class="navbar-brand" href="{% url 'dogcat:top_page' %}">LOVERY BOT</a>
     </nav>
     <div class="top-content">
         <div class="select-content">
-            <a href="{% url 'dogcat:index' %}">LOVERY EYE</a>
+            <a class="dogcat-link" href="{% url 'dogcat:index' %}">LOVERY EYE</a>
+            <a class="draw-link" href="https://h-funase.github.io/">LOVERY DRAW</a>
         </div>
         <div class="bot-top-page"></div> 
     </div>

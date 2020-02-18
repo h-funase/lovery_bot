@@ -23,6 +23,8 @@ font-size:50px;
 .top-content{
     display:flex;
     background-image: url("labo-image.jpg");
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
     background-size: cover;
 }
 .bot-top-page{
@@ -35,6 +37,7 @@ font-size:50px;
 .select-content{
     height:100vh;
     width:50%;
+    
 }
 
 
@@ -47,4 +50,33 @@ font-size:50px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center 200px;
+    opacity: 0.8;
 }
+
+.dogcat-link{
+    width:230px;
+    display: inline-block;
+    margin-left:100px;
+    margin-top:200px;
+    color:black;
+    font-size:40px;
+    border-bottom:4px solid;
+}
+
+a.dogcat-link:link {
+    text-decoration: none;
+  }
+
+.draw-link {
+    width:280px;
+    display: inline-block;
+    margin-left:100px;
+    margin-top:200px;
+    color:black;
+    font-size:40px;
+    border-bottom:4px solid;
+}
+
+a.draw-link:link {
+    text-decoration: none;
+  }
