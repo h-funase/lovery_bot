@@ -12,11 +12,21 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="{% url 'dogcat:top_page' %}">LOVERY BOT</a>
+
     </nav>
     <div class="top-content">
         <div class="select-content">
-            <a class="dogcat-link" href="{% url 'dogcat:index' %}">LOVERY EYE</a>
-            <a class="draw-link" href="https://h-funase.github.io/">LOVERY DRAW</a>
+            <div>
+                <a class="dogcat-link" href="{% url 'dogcat:index' %}">LOVERY EYE</a><br>
+                <p class="dogcat-introduction">一枚の画像を判定し、写っているのが犬か猫かを予想します。</p>
+            </div>
+                    
+            
+            
+            <div>
+                <a class="draw-link" href="https://h-funase.github.io/">LOVERY DRAW</a><br>
+                <p class="draw-introduction">二枚の画像を合成し、新しい画像を作り出します。</p>
+            </div>
         </div>
         <div class="bot-top-page"></div> 
     </div>
