@@ -25,7 +25,7 @@ SECRET_KEY = '32@%kkcb(1%1dj)y(5w)&+&9&&8ony2nem%+xa-e0_-cf)dtpx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://lovery-bot.com']
 
 
 # Application definition
