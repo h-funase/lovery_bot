@@ -29,4 +29,4 @@ TensorFlow,Keras,numpy,Pillow
 AWS(EC2,Route53,ALB,Certificate Manager)
 
 # 補足
-また、LOVERY DRAWというリンクをクリックすると、もう一つの二枚の画像を合成するアプリケーションに跳べるようになっています(https://github.com/h-funase/h-funase.github.io)。
+また、LOVERY DRAWというリンクをクリックすると、もう一つの二枚の画像を合成するアプリケーションに跳べるようになっています(https://github.com/h-funase/h-funase.github.io)
