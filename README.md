@@ -2,7 +2,7 @@
 Pythonの機械学習用ライブラリを利用して、アップロードされた画像に写っているのが犬と猫どちらかを判定ができるアプリケーションを作成しました。
 フレームワークはDjangoを利用しています。
 アップロードされる画像は一切データベースに保存されません。
-またcertificate ManagerとALBを利用し、常時SSL通信化を行っています。
+またCertificate ManagerとALBを利用し、常時SSL通信化を行っています。
 
 # リンク
 https://lovery-bot.com/
@@ -26,7 +26,7 @@ Django
 TensorFlow,Keras,numpy,Pillow
 
 ## サーバ関連
-AWS(EC2,Route53,ALB,certificate Manager)
+AWS(EC2,Route53,ALB,Certificate Manager)
 
 # 補足
 また、LOVERY DRAWというリンクをクリックすると、もう一つの二枚の画像を合成するアプリケーションに跳べるようになっています(https://github.com/h-funase/h-funase.github.io)。
