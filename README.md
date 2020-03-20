@@ -11,7 +11,7 @@ https://lovery-bot.com/
 まずFlickrAPIを使って、５００枚ほどの画像をweb上から収集をしました。その画像をKeras(Google社の機械学習用Pythonライブラリ『TensorFlow』に内蔵された簡易な機械学習ライブラリ)を利用し機械学習を行わせました。
 またVGG16という様々な大量の画像を予め学習しているニューラルネットワークモデルを機械学習の過程で利用し、精度の向上に成功しました。
 # 画像
-![demo](https://github.com/h-funase/lovery_bot/demo.gif)
+![0gma9-k1qcd](https://user-images.githubusercontent.com/58463973/75025557-c43c9900-54de-11ea-9811-ec239b23305f.gif)
 # 使用技術
 
 ## 言語
