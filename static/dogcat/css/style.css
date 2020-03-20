@@ -43,7 +43,6 @@ font-size:50px;
 }
 
 .dogcat-link{
-    width:230px;
     display: inline-block;
     margin-left:300px;
     margin-top:200px;
@@ -54,10 +53,10 @@ font-size:50px;
 
 a.dogcat-link:link {
     text-decoration: none;
+
 }
 
 .dogcat-link {
-    width:280px;
     display: inline-block;
     margin-left:250px;
     margin-top:150px;
@@ -67,7 +66,6 @@ a.dogcat-link:link {
 }
 
 .draw-link {
-    width:280px;
     display: inline-block;
     margin-left:250px;
     margin-top:150px;
